@@ -1,8 +1,8 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import ItemListContainer from './components/itemListContainer/itemListContainer';
-//import Prueba from './components/Prueba/Prueba';
-import ItemCount from './components/ItemCount/ItemCount';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+//import Prueba from './components/Ui/Prueba/Prueba';
+// import ItemCount from './components/ItemCount/ItemCount';
 
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
     <ItemListContainer
     greeting="Clase5"/>
  {/* <Prueba title="Contador"/> */}
-    <ItemCount 
+    {/* <ItemCount 
     initial={1}
-    stock={6}/>
+    stock={6}/> */}
   </div>
   )
 }
